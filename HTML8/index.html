@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Studento apklausos forma</title>
+	</head>
+
+	<body>
+		<form>
+			<fieldset>
+				<legend>Jūsų informacija</legend>
+				<table>
+					<tr>
+						<td>
+							<label>Vardas&#58;</label>
+						</td>
+						<td>
+							<input type="text" placeholder="" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Pavardė&#58;</label>
+						</td>
+						<td>
+							<input type="text" placeholder="" required>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+
+			<fieldset>
+				<legend>Klausimai</legend>
+				<table>
+					<tr>
+						<td>
+							<label>Kaip sužinojote apie mus&#63;</label>
+							<select>
+								<option value="">Google</option>
+								<option value="Bing">Bing</option>
+								<option value="Ask">Ask</option>
+								<option value="Yahoo&#33;">Yahoo&#33;</option>
+								<option value="Yandex">Yandex</option>
+								<option value="AOL Search">AOL Search</option>
+								<option value="Lycos">Lycos</option>
+							</select>
+							<br>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Ar apsilankysite vėl&#63;</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" id="yes" name="choose">
+							<label for="yes">Taip</label>
+							<input type="radio" id="no" name="choose">
+							<label for="no">Ne</label>
+							<input type="radio" id="maby" name="choose">
+							<label for="maby">Galbūt</label>
+							<br>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="text-field">Ką manote apie kursą&#63;</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<textarea rows="8" cols="90" id="text-field" name="text-field" placeholder="Rašykite viską ką galvo"></textarea>
+							<br>
+							<br>
+						</td>
+					</tr>
+
+				</table>
+				<span>Pažymėkite programavimo&sol;žymėjimo kalbas su kuriomis esate susipažinę&#58;</span>
+				<table>
+					<tr>
+						<td>
+							<input type="checkbox" id="code-language1" name="code-language1">
+							<label for="code-language1">C&#35;</label>
+						</td>
+						<td>
+							<input type="checkbox" id="code-language2" name="code-language2">
+							<label for="code-language2">JAVA</label>
+						</td>
+						<td>
+							<input type="checkbox" id="code-language3" name="code-language3">
+							<label for="code-language3">PHP</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" id="code-language4" name="code-language4">
+							<label for="code-language4">HTML</label>
+						</td>
+						<td>
+							<input type="checkbox" id="code-language5" name="code-language5">
+							<label for="code-language5">CSS</label>
+						</td>
+						<td>
+							<input type="checkbox" id="code-language6" name="code-language6">
+							<label for="code-language6">JavaScript</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" id="code-language7" name="code-language7">
+							<label for="code-language7">Pyton</label>
+						</td>
+						<td colspan="2">
+							<input type="checkbox" id="code-language8" name="code-language8">
+							<label for="code-language8">Ruby</label>
+						</td>
+					</tr>
+					<!-- css style not alowed-->
+					<tr>
+						<td colspan="3">
+							<br>
+							<br>
+							<input type="submit" value="siųsti">
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
