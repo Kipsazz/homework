@@ -1,0 +1,23 @@
+/* Main styles file */
+
+/* custom styles */
+
+h1 {
+	color: deeppink;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+h2 {
+	color: deeppink;
+	font-family: 'Open Sans' , sans-serif;
+	text-decoration: none;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+span.different-font {
+	font-style: italic;
+}
+span.different-text-opacity {
+	opacity: 0.8;
+}
