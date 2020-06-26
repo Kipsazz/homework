@@ -1,0 +1,52 @@
+body {
+	margin:0;
+	font-family: 'Inconsolata', monospace;
+}
+
+.page-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 0;
+	border: 7px solid #333;
+	border-style:double;
+	text-align: center;
+}
+
+.main_content {
+	width: 600px;
+	margin: 0 auto;
+}
+
+ul {
+	border-top: 3px solid #333;
+	border-bottom: 2px solid #333;
+	padding: 14px 0;
+	margin-bottom: 20px;
+
+}
+
+.selected {
+	color: lightcoral;
+}
+
+ul li {
+	list-style: none;
+	display: inline-grid;
+	margin: 0 8px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
+
+ul li:hover {
+	color: lightcoral;
+	/*-webkit-transition: width 2s; */
+	/*transition: width 2s;*/
+	cursor: pointer;
+}
+
+p {
+	letter-spacing: 1px;
+	font-size: 17px;
+	padding: 10px 20px;
+}
