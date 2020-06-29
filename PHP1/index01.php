@@ -1,5 +1,5 @@
 <?php
-	$title = 'PHP 01 PHP 01 assignment';
+	$title = 'PHP 01 assignment';
 ?>
 <!DOCTYPE html>
 <html lang="lt">
