@@ -14,9 +14,11 @@
 		$salis = 'Lietuva';
 		$miestas = 'Vilnius';
 		$populiacija = '574221';
+		$outputWithSingleQuotes = '\'' . $miestas . ' - Lietuvos sostine.\'';
+		$outputWithDoubleQuotes = "\"$miestas ir $salis sparciai auga\"";
 
-		echo '\'' . $miestas . ' - Lietuvos sostine.\'';
-		echo "\"$miestas ir $salis sparciai auga\"";
+		echo $outputWithSingleQuotes;
+		echo $outputWithDoubleQuotes;
 		?>
 	</body>
 </html>
